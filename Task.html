@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasks Overview</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=SUSE:wght@100..800&display=swap" rel="stylesheet">
+    <style>
+        *{
+            font-family: "Inter", sans-serif;
+        }
+        body{
+            background-color: rgb(226, 230, 233);
+            display: flex;
+            justify-content: center;
+        }
+        .container{
+            width: 400px;
+            background-color: white;
+            padding: 20px;
+            padding-top: 0px;
+            border-radius: 8px;
+            box-shadow: 2px 2px 6px rgb(206, 199, 199);
+        }
+
+        .judul h1{
+            margin-top: 0px;
+            margin-bottom: 2px;
+            font-size: 24px;
+        }
+
+        .judul span{
+            font-size: 17px;
+            font-weight: bold;
+            color: rgba(0, 0, 0, 0.575);
+        }
+
+        .judul{
+            font-size: 13px;
+            padding-left: 18px;
+        }
+
+        .logokc img{
+            width: 20px;
+        }
+
+        .jdl_lg{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 30px;
+        }
+
+        h2{
+            margin-bottom: 1px;
+            font-size: 20px;
+        }
+
+        .bdn span{
+            font-size: 18px;
+            font-weight: bold;
+            color: rgba(0, 0, 0, 0.575);
+        }
+
+        .logo{
+            width: 60px;
+            height: 60px;
+            margin: 10px;
+            margin-left: 18px;
+            border-radius: 5px;
+        }
+
+        .logo img{
+            width: 40;
+            height: 40px;
+            padding: 3px;
+            padding-top: 7px;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .bar{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .font{
+            background-color: red;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 200px;
+            font-weight: bold;
+            padding-top: 0px;
+        }
+
+        #logo1{
+            background-color: #E2FFEB;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        #logo1 img{
+            width: 30px;
+            height: 30px;
+        }
+        #logo2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #FFF7DD;
+        }
+        
+        #logo2 img{
+            width: 30px;
+            height: 30px;
+        }
+        
+        #logo3{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #E9F3FF;
+        }
+        
+        #logo3 img{
+            width: 30px;
+            height: 30px;
+        }
+        
+        #logo4{
+            background-color: #FFE5ED;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #logo4 img{
+        
+        }
+        
+        #logo5{
+            background-color: #F8F5FF;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #logo5 img{
+            width: 23px;
+            height: 27px
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="jdl_lg">
+            <div class="judul">
+                <h1>Tasks Overview</h1>
+                <span>Pending 10 tasks</span>
+            </div>
+            <div class="logokc">
+                <img src="Logo-kayak-windows.png" alt="">
+            </div>
+        </div>
+        <div>
+            <div class="bdn">
+                <div class="bar">
+                    <div class="logo" id="logo1">
+                        <img src="Project.png" alt="">
+                    </div>
+                    <div class="font">
+                        <h2>Project Briefing</h2>
+                        <span>Project Manajer</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="logo" id="logo2">
+                        <img src="Content.png" alt="">
+                    </div>
+                    <div>
+                        <h2>Concept Design</h2>
+                        <span>Art Director</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="logo" id="logo3">
+                        <img src="chat.png" alt="">
+                    </div>
+                    <div>
+                        <h2>Functional Logics</h2>
+                        <span>Lead Developer</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="logo" id="logo4">
+                        <img src="Function.png" alt="">
+                    </div>
+                    <div>
+                        <h2>Development</h2>
+                        <span>DevOps</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="logo"  id="logo5">
+                        <img src="Testing.png" alt="">
+                    </div>
+                    <div>
+                        <h2>Testing</h2>
+                        <span>QA Managers</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

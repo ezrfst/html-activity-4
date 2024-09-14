@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allah Sang Maha Kuasa</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nerko+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=SUSE:wght@100..800&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            font-family: "Silkscreen", sans-serif;
+        }
+        body{
+            background-color: rgb(235, 225, 225);
+            display: flex;
+            justify-content: center;
+        }
+
+        .container{
+            background-color: #fff;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 20%;
+        }
+        
+        .kpl{
+            border: solid black 1px;
+            width: 80%;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 30px;
+            gap: 20px;
+        }
+        
+        .ats{
+            
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-weight: 400;
+            margin-bottom: 30px;
+        }
+
+        .pp img{
+            border: solid rgb(22, 194, 22) 5px;
+            border-radius: 50%;
+            width: 160px;
+        }
+
+        .bwhpp {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .bwhpp img{
+            width: 30px;
+        }
+
+        .ktr{
+            display: flex;
+            align-items: center;
+            font-size: 24px;
+            color: rgba(0, 0, 0, 0.726);
+            gap: 18px;
+            
+        }
+
+        .a img{
+            
+        }
+
+        .a{
+            display: flex;
+            align-items: center;
+            gap: 3px;
+        }
+        
+        .b{
+            display: flex;
+            align-items: center;
+            gap: 3px;
+        }
+        
+        .c{
+            display: flex;
+            align-items: center;
+            gap: 3px;
+           
+        }
+
+        .navbar{
+            border-bottom: solid rgba(0, 0, 0, 0.836) 1px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 0px;
+            padding-bottom: 10px;
+        }
+
+        .menu button{
+            background-color: white;
+            border: none;
+            font-size: 22px;
+            color: black;
+            text-decoration: none;
+        }
+
+        .navbar a{
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            
+        }
+
+        .menu{
+            display: flex;
+            gap: 20px;
+        }
+
+        .menu img:active{
+            transform: rotate(-90deg);
+            transition-duration: 0.00001ms;
+        }
+
+        .btn{
+            display: flex;
+            gap: 20px;
+        }
+        
+        .btn button:active{
+            background-color: white;
+            color: blue;
+
+            
+        }
+        .button1 {
+            padding: 7px;
+            display: flex;
+            align-items: center;
+            background-color: blue;
+            color: white;
+            font-size: 20px;
+            border-radius: 7px;
+            
+        }
+
+        .jdl{
+            border: solid black 1px;
+            width: 93.5%;
+            margin: 0px;
+            margin-top: 70px;
+            margin-bottom: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .btnbwh{
+            border: solid black 1px;
+            width: 90px;
+            height: 50px;
+            display: flex;
+            margin-right: 0px;
+        }
+        /*box1*/
+        .bdn{
+            width: 90%;
+        }
+        .box{
+            width: 90%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 50px;
+        }
+        h1{
+            margin: 0px;
+            font-size: 22px;
+        }
+        .box1{
+            width: 386px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: white;
+            box-shadow: 2px 2px 6px rgb(207, 203, 203);
+            border-bottom-left-radius: 9px;
+            border-bottom-right-radius: 9px;
+            border-top-right-radius: 9px;
+            border-top-left-radius: 9px;
+        }
+        
+        .bg img{
+            width: 386px;
+            height: 257px;
+            border-top-right-radius: 9px;
+            border-top-left-radius: 9px;
+        }
+
+        .bwhbg{
+            padding: 20px;
+        }
+
+
+        .bwh{
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .pfl{
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        span{
+            color: rgba(0, 0, 0, 0.822);
+            font-size: 18px;
+        }
+
+        .pfl img{
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+        }
+
+        .plg{
+            display: flex;
+            gap: 10px;
+        }
+        
+        .lr{
+            display: flex;
+            align-items: center;
+            gap: 3px;
+        }
+
+        .lr img{
+            width: 25px;
+            height: 25px;
+            opacity: 50%;
+            color: rgba(0, 0, 0, 0.281);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="kpl">
+            <div class="ats">
+                <div class="prfl">
+                    <div class="pp"><img src="artis.jpg" alt=""></div>
+                    <div class="bwhpp">
+                        <h1>Mr Bean</h1>
+                        <div><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAmtJREFUSEu1lU1PE1EUht93WjDEROMnYEQkfEi7IMLYTjVW/4UmRuPGj50L9ib+AVeuMCExRhP8FwYlzkwLoiatGIhYQCNqZKFGOvQeM2Pa0CmdaUXubuaeOc97znnvXGKHF3c4PxoC9I+8iEWj2m1AzrmCKHyKUvRObkafDxMYCoiPTPch6lgA91cnk1VVFOPt7OnFIMiWgHjC7gDUGIg0wH3BKuU7gMmi03p9/uXIF39sDaDHMNvbFGdBdISVX7UvKPz43Xay8GbIBVZWDSCetB4DuNRU8nKwyP1cJnUzBGB+Bnj43wAo5DJGd11AbHimmy1O4NCCwCJQRfD4Qia5VI6rtCiuZ4+JVjJJdDaiXkQ+UjgBDaOb4wWy4hCpeSu17Fm6vBlLWE9IXGgkOYBlVVRp16LxhDkG8kY1BA/ztnHVD1gjsbcGIHIXxJXKXAQF5ajzbvKYYfZTcbLWcbKas1PtVYB40vxWe5hwL2cbt/r0bG+LVnoGyrpDpN3yy++2aqkIvuYzxiFfBeYEyYv+fiowPWcb7weT1oBaL/189+rMiqdc8Lye2wRbtKg3YXftosoA9EqrWBvywSHOlocWpNz7RrAkKmLkp099qqrAfahrU8GCqEiawt2IOlN1lQsUVORoOXkNwIMkzBWSR/zDFsEcgD0hNl7O2UZX4EmOJawHJDyLNbsEGM/bxrVAwICePRjRSq8bPXCbhrX0y2kdWpwdXgsEeG3Ss53UNsZBpMJ+164lSZlq+Hftb8uJpNWjCTIkDlTvbePC8UMG9OxgJLLxiKD+14licaPl8n+5MpsdtD8+9E7eLuAPYpsBKBFB/NMAAAAASUVORK5CYII="/></div>
+                    </div>
+                </div>
+                <div class="ktr">
+                    <div class="a">
+                        <div><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAYRJREFUSEvV1b9LVlEcx/GXQ+LQUIIkrZEiikFBREMETeHooKDgZoMgLYb4D0jUYFRLU1M0REsRgqNCRC6CBOkooSBof0CQ98R54D6n++uJhDrbvefL5/39fH/c2+WUT9cp6/vnAJ+wh0n8aOK+EwdD+BJFH2PhbwPm8CwneherdZBOHLzBeE7wO0bwrQrSCeAI5xOxz7hZ1Y884C1u4wWex2a29EaxVZLpIzwoc5EH7OByDPyJ93iKNcxn2T+pKMUYPhTd5wFX8RHdSeDXWILhCsAxriSuf4WnPZjA67rJKLkv7EdRk5ex+IeQ3/ajCBDevUOoa9XZzgbiInqToLZ+lI3pWWxisIIwG8u5hPvoibFt+1G1B5ci5FwJZAC78S44eYjp+LyOW0VNTrXuxDFNE9mP5Unjr2EF/a2Rb7LJRTvwKst+qqJ8fThs4qCl8RIzOcF7ceNrh62JgyByBhvZtl6PiqH5YfNrT1NAELqA8MM5yD7TN2qVY0AngKaabXH/P+AE/DM6GSoVxT4AAAAASUVORK5CYII="/></div>
+                        <div>KeenThemes</div>
+                    </div>
+                    <div class="b">
+                        <div><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAlxJREFUSEu11cmrj1EYB/DPNacMkTlEhDIryZRhIUNio4iSIRIbFuIPYIMSJSFFkmkhkY0pQ4kimYWMmZUkM+epc3Vd9zeEe3bv2znP93yH5zkVanlV1HJ95QB0wnRMQL98oUs4gt14XOySxQCaYicmFynwA3sxBx9q2lcIoDHOozc+YTPW414u0hVLMR8N8t4R+FIdpBDADszCI4zDjQIs+uJoukA7rMOycgD64Aq+Jp0HI/Rui62p2JBc4GzSfh5eYiRO4TO64GlVkJoYbMBibMSSXLwSpOrZYNcfb7ALMxLISqwuBXAH3bL+17LRM3Ew+bEiH16bdB+fvVmYGIxOTI7jdGb0C6MmBmFqGFcX35ORT9AebfCiisl3U3oeojNaJLavM5uWpRi8RXM0wfuc8w7oWCXz0RsP8nf8j73vEGcDrCiDixiUmqhH0vV2uuF2zM4SLUejxHBVbrxt2exeuI4LORhFAbbkQ2FwGN0KV9G6WgSjg8PkkCbiuSbJuCnJuKgUgzE4hsvp1gPy5vCgMqbhyxkswHPUwc2UpO4YhnOlAML4+9m8KVmaYuMmEhYj5RZ6ltNosWca9uAZovFeFUAI80O+CMUkHC4XIPadwKjcpWPxrdrhhlmOgSkUhwoNxWLTNMZDNFrELtISgy2mZ6x62Jd8CgmjF8LsiOgfq9R7MDSxOIn6iAE4N8c03oGQJEZ0GBuBqHGVAohDU9PY2J/TEo9MvBPD8xifmBNXMATlAMTh8OAAmuVKYX48RNFYRVe5AFEkujWS9TFr/9tY/heJSl3yvzH4K6CfFgx2GUKNzOIAAAAASUVORK5CYII="/></div>
+                        <div>SF, Bay Area</div>
+                    </div>
+                    <div class="c">
+                        <div><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAUlJREFUSEvd1T8ohWEUx/GPJIPBZJBSMmCwW2xGpbBSNmVSBhbJRCmTsilWfxaZbBYzA5OQMpgMBsmfe/S8um73ute93eWe5an3vM/5nt/vvM/zNqlzNNW5vsYCjGEN/TXadoUFnESdfIse0FVj8Wz7DXoLAZ8pO4DrKkGhPhT81M5XkAFeMI3Df0LGsYu2coCs7gYW8V4G1JxmF77nx3fzxRTMYButOMMEnkpAOnCAYbxiFjvlFAR0EMfoxiNC/nkBZCjZ2Il7jOaauURmdUkFmap27GMEb5jHVoLMYRMtOMVkLv+cchUDMgtXsJw276V1Kq2RW83rOh7/C5C5EipCTaiKiG6j6+i+MKoCRJEeHOXUfKSZ3JYYfNWASo9FAwPu0ndfqRV/vRfziZn9OslxXa+jr0bCRe5ULxW7rmusW3x7Y/0y62LRF2qEQhkl8rgIAAAAAElFTkSuQmCC"/></div>
+                        <div>Bean@kteam.com</div>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar">
+                <div class="menu">
+                    <a href="#">
+                        <button>Profiles</button> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAANZJREFUSEvt081pAlEUhuFHsIcEVBJMmggi9mEDggXYRlZu3KWUECRN+I+C6SGIHBhBYmbmuhBczF0O33zvOe/Mrbnxqd24XwUoNVwpun9FI3zgJ2fUB/TxnrdK0UceYow5etj9KWngEy8YYPIfpAjwiC+8Yo3OGSTKp3jCDF3srwVEPiDfeD6DxPNT+QpveeURTLkHzUxFG0vU0cIiU7ct+pVSAPF+QEJXbBInJg8theWpG5wGDEjo+k0tvxYQ+djggE3pDcsCqYpS+y5yFaBUXaWoVNERTkIfGckggW4AAAAASUVORK5CYII="/>
+                    </a>
+                    <a href="#">
+                        <button>Project</button> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAANZJREFUSEvt081pAlEUhuFHsIcEVBJMmggi9mEDggXYRlZu3KWUECRN+I+C6SGIHBhBYmbmuhBczF0O33zvOe/Mrbnxqd24XwUoNVwpun9FI3zgJ2fUB/TxnrdK0UceYow5etj9KWngEy8YYPIfpAjwiC+8Yo3OGSTKp3jCDF3srwVEPiDfeD6DxPNT+QpveeURTLkHzUxFG0vU0cIiU7ct+pVSAPF+QEJXbBInJg8theWpG5wGDEjo+k0tvxYQ+djggE3pDcsCqYpS+y5yFaBUXaWoVNERTkIfGckggW4AAAAASUVORK5CYII="/>
+                    </a>
+                    <a href="#">
+                        <button>Works</button>
+                    </a>
+                    <a href="#">
+                        <button>Teams</button>
+                    </a>
+                    <a href="#">
+                        <button>Network</button>
+                    </a>
+                    <a href="#">
+                        <button>Activity</button>
+                    </a>
+                    <a href="#">
+                        <button>More</button> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAANZJREFUSEvt081pAlEUhuFHsIcEVBJMmggi9mEDggXYRlZu3KWUECRN+I+C6SGIHBhBYmbmuhBczF0O33zvOe/Mrbnxqd24XwUoNVwpun9FI3zgJ2fUB/TxnrdK0UceYow5etj9KWngEy8YYPIfpAjwiC+8Yo3OGSTKp3jCDF3srwVEPiDfeD6DxPNT+QpveeURTLkHzUxFG0vU0cIiU7ct+pVSAPF+QEJXbBInJg8theWpG5wGDEjo+k0tvxYQ+djggE3pDcsCqYpS+y5yFaBUXaWoVNERTkIfGckggW4AAAAASUVORK5CYII="/>
+                    </a>
+                </div>
+                <div class="btn">
+                    <button class=button1>
+                        <i class='bx bx-group' style='color: #fff' ></i> Connect
+                    </button>
+                    <button>
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAQdJREFUSEvt1j0uRUEYxvHfrSxAJBK2oFKobEBlAyQUYj0aEpEQEa1GFNagVxKNKDWi8HFH7si5h5mbYUblJKeaeZ//vJ8zA42/QWN9OcAS1jBfeIg7HOIq2OUAB5guFI/b77E9CVCqHTzdwOLIcLU2IOjNDv+9FKBKzHGWAlSJeQ4wRi5IQN8u6cE/4KMs/yoHD9jq90GtHOzg6LtRUQswVoDdWdQcsI+ZXv3HxC2Mhtdcoj8+Y95f73oQRsU6uiJheG1iOdN4NziOMc8BumsxXM+YwhNOcY6Xgi5P3gcR8IpLnOCxRDjuTV04AXCN3eGMv/2J8CTACi7w9hvxFhfOl/M0f1W8A/IiOxme9vxLAAAAAElFTkSuQmCC"/>
+                    </button>
+                    <button>
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAHhJREFUSEvt1MEJwkAQheFvaxBrSTV6DPYUAgHrsQ+xBQ8RIbdAdld2Tu6ch/eGfx4vCZ4UrO+/DAZcsGLBowRvDaIZp030iVtrgwnnTfSFsbXBF9EVb9wjEJUcvNup+UG4QU9RFnFPURGi3kWHmHqKsin6aSG8TT9VNB4ZkCVJGAAAAABJRU5ErkJggg=="/>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="bdn">
+            <div class="jdl">
+                <h1>8 Works</h1>
+                <div class="btnbwh">
+                    <div>.</div>
+                    <div>.</div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box1">
+                    <div class="bg">
+                        <img src="background.jpg" alt="">
+                    </div>
+                    <div class="bwhbg">
+                        <div class="jdlbox">
+                            <h1>Urban Dreams</h1>
+                        </div>
+                        <div class="bwh">
+                            <div class="pfl">
+                                <div class="pfl">
+                                    <img src="pp.jpg" alt="">
+                                </div>
+                                <div>
+                                    <span>Cody Fisher</span>
+                                </div>
+                            </div>
+                            <div class="plg">
+                                <div class="lr">
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAehJREFUSEvV1MvLTWEYBfDfF5kiRK6lMFCSgUsuSWJKMVBymbiM/CtGLhlhQlEMzMj9UlIMFCkRBi6lpAwIe329R+ds+5yz++pL3jqdwbvftZ71POtZI8b5jIwzvn9GsBvbsQq/cAfncako3oH81jJa5ANcwLl6R+oKZuAstvZpXYgmYWWf+yvYj4+d+26CCbiNNfiAg7iHH9iAU5heHgbgAG5hYrk/gWkFYyN+5ttugkM4js9Yhre1KufiamnZZryr3c+v2voEU7AXZ+oEj7AC+3B6jO6KqpO4iajoUfC9yE0lb8ZIsBjP8R6z+hHMa2hPW74leFbeB6dHwX2sxp7ipLag3d8dxjFcxrY6wZFqQEfxqfL78oYhDiOcg6eYXP3vLHvRoyD+jooM+gXWl14OA879zGLPRdW7a9VixmWjp75oGUwckGG1JUnl1xHwDDg7kz1qJOhUkwVbWM3jZXlQ93znfcDvYkEBX1da/Ed1v7CL5CiJK16XzKmTdIOn9/F95tdzBqVpYiHZ00TSDf64ioxNJQH+mtewuA7JDSztUpLsibq05WEZ6Jd+ThhGkHdTC0ny6VVJ09nFcVvwdZDN2hB0SJK0UZITEyTSB4I32XRQMVFyEWnHLnxrsyBtFbTBavzm/yf4DTBuXhlUYzevAAAAAElFTkSuQmCC"/>
+                                    <p>24</p>
+                                </div>
+                                <div class="lr">
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAQZJREFUSEvt1T1KBEEQhuFnQ6+gILiCP8cwNDLdIxgYiiCCsQaaiGCw5/AIHkAFI0XB0FAwEXVHbOkd7V566TFy0u6qt/qrqm96Ov56HeeXA2zgACuFRdxgG+dNXA7wiLnC5OH6HRYnAUpzr+II61+Bn8XX7kEftylAFc3xngJU0TwHGCMXNKAdl3zBPyBM5J9IdI+F9h7U6sE1dn6zilqAsQGMN7lzwAPmW/MfCljDGZYS+/Gtefs8fkFjFYdYji7N4hiDzOJdYjdongPEZ0GulxF0ZuTvz9jHCV4LtjzppgHwhiH28FSSONxN2XUDuMAmrqZJPAmwhdPIGadm1P7h/Cikc8AHqrk7GaSdRPsAAAAASUVORK5CYII="/>
+                                    <p>5</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box1">
+                    <div class="bg">
+                        <img src="background.jpg" alt="">
+                    </div>
+                    <div class="bwhbg">
+                        <div class="jdlbox">
+                            <h1>Urban Dreams</h1>
+                        </div>
+                        <div class="bwh">
+                            <div class="pfl">
+                                <div class="pfl">
+                                    <img src="pp.jpg" alt="">
+                                </div>
+                                <div>
+                                    <span>Cody Fisher</span>
+                                </div>
+                            </div>
+                            <div class="plg">
+                                <div class="lr">
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAehJREFUSEvV1MvLTWEYBfDfF5kiRK6lMFCSgUsuSWJKMVBymbiM/CtGLhlhQlEMzMj9UlIMFCkRBi6lpAwIe329R+ds+5yz++pL3jqdwbvftZ71POtZI8b5jIwzvn9GsBvbsQq/cAfncako3oH81jJa5ANcwLl6R+oKZuAstvZpXYgmYWWf+yvYj4+d+26CCbiNNfiAg7iHH9iAU5heHgbgAG5hYrk/gWkFYyN+5ttugkM4js9Yhre1KufiamnZZryr3c+v2voEU7AXZ+oEj7AC+3B6jO6KqpO4iajoUfC9yE0lb8ZIsBjP8R6z+hHMa2hPW74leFbeB6dHwX2sxp7ipLag3d8dxjFcxrY6wZFqQEfxqfL78oYhDiOcg6eYXP3vLHvRoyD+jooM+gXWl14OA879zGLPRdW7a9VixmWjp75oGUwckGG1JUnl1xHwDDg7kz1qJOhUkwVbWM3jZXlQ93znfcDvYkEBX1da/Ed1v7CL5CiJK16XzKmTdIOn9/F95tdzBqVpYiHZ00TSDf64ioxNJQH+mtewuA7JDSztUpLsibq05WEZ6Jd+ThhGkHdTC0ny6VVJ09nFcVvwdZDN2hB0SJK0UZITEyTSB4I32XRQMVFyEWnHLnxrsyBtFbTBavzm/yf4DTBuXhlUYzevAAAAAElFTkSuQmCC"/>
+                                    <p>24</p>
+                                </div>
+                                <div class="lr">
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAQZJREFUSEvt1T1KBEEQhuFnQ6+gILiCP8cwNDLdIxgYiiCCsQaaiGCw5/AIHkAFI0XB0FAwEXVHbOkd7V566TFy0u6qt/qrqm96Ov56HeeXA2zgACuFRdxgG+dNXA7wiLnC5OH6HRYnAUpzr+II61+Bn8XX7kEftylAFc3xngJU0TwHGCMXNKAdl3zBPyBM5J9IdI+F9h7U6sE1dn6zilqAsQGMN7lzwAPmW/MfCljDGZYS+/Gtefs8fkFjFYdYji7N4hiDzOJdYjdongPEZ0GulxF0ZuTvz9jHCV4LtjzppgHwhiH28FSSONxN2XUDuMAmrqZJPAmwhdPIGadm1P7h/Cikc8AHqrk7GaSdRPsAAAAASUVORK5CYII="/>
+                                    <p>5</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box1">
+                    <div class="bg">
+                        <img src="background.jpg" alt="">
+                    </div>
+                    <div class="bwhbg">
+                        <div class="jdlbox">
+                            <h1>Urban Dreams</h1>
+                        </div>
+                        <div class="bwh">
+                            <div class="pfl">
+                                <div class="pfl">
+                                    <img src="pp.jpg" alt="">
+                                </div>
+                                <div>
+                                    <span>Cody Fisher</span>
+                                </div>
+                            </div>
+                            <div class="plg">
+                                <div class="lr">
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAehJREFUSEvV1MvLTWEYBfDfF5kiRK6lMFCSgUsuSWJKMVBymbiM/CtGLhlhQlEMzMj9UlIMFCkRBi6lpAwIe329R+ds+5yz++pL3jqdwbvftZ71POtZI8b5jIwzvn9GsBvbsQq/cAfncako3oH81jJa5ANcwLl6R+oKZuAstvZpXYgmYWWf+yvYj4+d+26CCbiNNfiAg7iHH9iAU5heHgbgAG5hYrk/gWkFYyN+5ttugkM4js9Yhre1KufiamnZZryr3c+v2voEU7AXZ+oEj7AC+3B6jO6KqpO4iajoUfC9yE0lb8ZIsBjP8R6z+hHMa2hPW74leFbeB6dHwX2sxp7ipLag3d8dxjFcxrY6wZFqQEfxqfL78oYhDiOcg6eYXP3vLHvRoyD+jooM+gXWl14OA879zGLPRdW7a9VixmWjp75oGUwckGG1JUnl1xHwDDg7kz1qJOhUkwVbWM3jZXlQ93znfcDvYkEBX1da/Ed1v7CL5CiJK16XzKmTdIOn9/F95tdzBqVpYiHZ00TSDf64ioxNJQH+mtewuA7JDSztUpLsibq05WEZ6Jd+ThhGkHdTC0ny6VVJ09nFcVvwdZDN2hB0SJK0UZITEyTSB4I32XRQMVFyEWnHLnxrsyBtFbTBavzm/yf4DTBuXhlUYzevAAAAAElFTkSuQmCC"/>
+                                    <p>24</p>
+                                </div>
+                                <div class="lr">
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAQZJREFUSEvt1T1KBEEQhuFnQ6+gILiCP8cwNDLdIxgYiiCCsQaaiGCw5/AIHkAFI0XB0FAwEXVHbOkd7V566TFy0u6qt/qrqm96Ov56HeeXA2zgACuFRdxgG+dNXA7wiLnC5OH6HRYnAUpzr+II61+Bn8XX7kEftylAFc3xngJU0TwHGCMXNKAdl3zBPyBM5J9IdI+F9h7U6sE1dn6zilqAsQGMN7lzwAPmW/MfCljDGZYS+/Gtefs8fkFjFYdYji7N4hiDzOJdYjdongPEZ0GulxF0ZuTvz9jHCV4LtjzppgHwhiH28FSSONxN2XUDuMAmrqZJPAmwhdPIGadm1P7h/Cikc8AHqrk7GaSdRPsAAAAASUVORK5CYII="/>
+                                    <p>5</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box1">
+                    <div class="bg">
+                        <img src="background.jpg" alt="">
+                    </div>
+                    <div class="bwhbg">
+                        <div class="jdlbox">
+                            <h1>Urban Dreams</h1>
+                        </div>
+                        <div class="bwh">
+                            <div class="pfl">
+                                <div class="pfl">
+                                    <img src="pp.jpg" alt="">
+                                </div>
+                                <div>
+                                    <span>Cody Fisher</span>
+                                </div>
+                            </div>
+                            <div class="plg">
+                                <div class="lr">
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAehJREFUSEvV1MvLTWEYBfDfF5kiRK6lMFCSgUsuSWJKMVBymbiM/CtGLhlhQlEMzMj9UlIMFCkRBi6lpAwIe329R+ds+5yz++pL3jqdwbvftZ71POtZI8b5jIwzvn9GsBvbsQq/cAfncako3oH81jJa5ANcwLl6R+oKZuAstvZpXYgmYWWf+yvYj4+d+26CCbiNNfiAg7iHH9iAU5heHgbgAG5hYrk/gWkFYyN+5ttugkM4js9Yhre1KufiamnZZryr3c+v2voEU7AXZ+oEj7AC+3B6jO6KqpO4iajoUfC9yE0lb8ZIsBjP8R6z+hHMa2hPW74leFbeB6dHwX2sxp7ipLag3d8dxjFcxrY6wZFqQEfxqfL78oYhDiOcg6eYXP3vLHvRoyD+jooM+gXWl14OA879zGLPRdW7a9VixmWjp75oGUwckGG1JUnl1xHwDDg7kz1qJOhUkwVbWM3jZXlQ93znfcDvYkEBX1da/Ed1v7CL5CiJK16XzKmTdIOn9/F95tdzBqVpYiHZ00TSDf64ioxNJQH+mtewuA7JDSztUpLsibq05WEZ6Jd+ThhGkHdTC0ny6VVJ09nFcVvwdZDN2hB0SJK0UZITEyTSB4I32XRQMVFyEWnHLnxrsyBtFbTBavzm/yf4DTBuXhlUYzevAAAAAElFTkSuQmCC"/>
+                                    <p>24</p>
+                                </div>
+                                <div class="lr">
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAQZJREFUSEvt1T1KBEEQhuFnQ6+gILiCP8cwNDLdIxgYiiCCsQaaiGCw5/AIHkAFI0XB0FAwEXVHbOkd7V566TFy0u6qt/qrqm96Ov56HeeXA2zgACuFRdxgG+dNXA7wiLnC5OH6HRYnAUpzr+II61+Bn8XX7kEftylAFc3xngJU0TwHGCMXNKAdl3zBPyBM5J9IdI+F9h7U6sE1dn6zilqAsQGMN7lzwAPmW/MfCljDGZYS+/Gtefs8fkFjFYdYji7N4hiDzOJdYjdongPEZ0GulxF0ZuTvz9jHCV4LtjzppgHwhiH28FSSONxN2XUDuMAmrqZJPAmwhdPIGadm1P7h/Cikc8AHqrk7GaSdRPsAAAAASUVORK5CYII="/>
+                                    <p>5</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box1">
+                    <div class="bg">
+                        <img src="background.jpg" alt="">
+                    </div>
+                    <div class="bwhbg">
+                        <div class="jdlbox">
+                            <h1>Urban Dreams</h1>
+                        </div>
+                        <div class="bwh">
+                            <div class="pfl">
+                                <div class="pfl">
+                                    <img src="pp.jpg" alt="">
+                                </div>
+                                <div>
+                                    <span>Cody Fisher</span>
+                                </div>
+                            </div>
+                            <div class="plg">
+                                <div class="lr">
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAehJREFUSEvV1MvLTWEYBfDfF5kiRK6lMFCSgUsuSWJKMVBymbiM/CtGLhlhQlEMzMj9UlIMFCkRBi6lpAwIe329R+ds+5yz++pL3jqdwbvftZ71POtZI8b5jIwzvn9GsBvbsQq/cAfncako3oH81jJa5ANcwLl6R+oKZuAstvZpXYgmYWWf+yvYj4+d+26CCbiNNfiAg7iHH9iAU5heHgbgAG5hYrk/gWkFYyN+5ttugkM4js9Yhre1KufiamnZZryr3c+v2voEU7AXZ+oEj7AC+3B6jO6KqpO4iajoUfC9yE0lb8ZIsBjP8R6z+hHMa2hPW74leFbeB6dHwX2sxp7ipLag3d8dxjFcxrY6wZFqQEfxqfL78oYhDiOcg6eYXP3vLHvRoyD+jooM+gXWl14OA879zGLPRdW7a9VixmWjp75oGUwckGG1JUnl1xHwDDg7kz1qJOhUkwVbWM3jZXlQ93znfcDvYkEBX1da/Ed1v7CL5CiJK16XzKmTdIOn9/F95tdzBqVpYiHZ00TSDf64ioxNJQH+mtewuA7JDSztUpLsibq05WEZ6Jd+ThhGkHdTC0ny6VVJ09nFcVvwdZDN2hB0SJK0UZITEyTSB4I32XRQMVFyEWnHLnxrsyBtFbTBavzm/yf4DTBuXhlUYzevAAAAAElFTkSuQmCC"/>
+                                    <p>24</p>
+                                </div>
+                                <div class="lr">
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAQZJREFUSEvt1T1KBEEQhuFnQ6+gILiCP8cwNDLdIxgYiiCCsQaaiGCw5/AIHkAFI0XB0FAwEXVHbOkd7V566TFy0u6qt/qrqm96Ov56HeeXA2zgACuFRdxgG+dNXA7wiLnC5OH6HRYnAUpzr+II61+Bn8XX7kEftylAFc3xngJU0TwHGCMXNKAdl3zBPyBM5J9IdI+F9h7U6sE1dn6zilqAsQGMN7lzwAPmW/MfCljDGZYS+/Gtefs8fkFjFYdYji7N4hiDzOJdYjdongPEZ0GulxF0ZuTvz9jHCV4LtjzppgHwhiH28FSSONxN2XUDuMAmrqZJPAmwhdPIGadm1P7h/Cikc8AHqrk7GaSdRPsAAAAASUVORK5CYII="/>
+                                    <p>5</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box1">
+                    <div class="bg">
+                        <img src="background.jpg" alt="">
+                    </div>
+                    <div class="bwhbg">
+                        <div class="jdlbox">
+                            <h1>Urban Dreams</h1>
+                        </div>
+                        <div class="bwh">
+                            <div class="pfl">
+                                <div class="pfl">
+                                    <img src="pp.jpg" alt="">
+                                </div>
+                                <div>
+                                    <span>Cody Fisher</span>
+                                </div>
+                            </div>
+                            <div class="plg">
+                                <div class="lr">
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAehJREFUSEvV1MvLTWEYBfDfF5kiRK6lMFCSgUsuSWJKMVBymbiM/CtGLhlhQlEMzMj9UlIMFCkRBi6lpAwIe329R+ds+5yz++pL3jqdwbvftZ71POtZI8b5jIwzvn9GsBvbsQq/cAfncako3oH81jJa5ANcwLl6R+oKZuAstvZpXYgmYWWf+yvYj4+d+26CCbiNNfiAg7iHH9iAU5heHgbgAG5hYrk/gWkFYyN+5ttugkM4js9Yhre1KufiamnZZryr3c+v2voEU7AXZ+oEj7AC+3B6jO6KqpO4iajoUfC9yE0lb8ZIsBjP8R6z+hHMa2hPW74leFbeB6dHwX2sxp7ipLag3d8dxjFcxrY6wZFqQEfxqfL78oYhDiOcg6eYXP3vLHvRoyD+jooM+gXWl14OA879zGLPRdW7a9VixmWjp75oGUwckGG1JUnl1xHwDDg7kz1qJOhUkwVbWM3jZXlQ93znfcDvYkEBX1da/Ed1v7CL5CiJK16XzKmTdIOn9/F95tdzBqVpYiHZ00TSDf64ioxNJQH+mtewuA7JDSztUpLsibq05WEZ6Jd+ThhGkHdTC0ny6VVJ09nFcVvwdZDN2hB0SJK0UZITEyTSB4I32XRQMVFyEWnHLnxrsyBtFbTBavzm/yf4DTBuXhlUYzevAAAAAElFTkSuQmCC"/>
+                                    <p>24</p>
+                                </div>
+                                <div class="lr">
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAQZJREFUSEvt1T1KBEEQhuFnQ6+gILiCP8cwNDLdIxgYiiCCsQaaiGCw5/AIHkAFI0XB0FAwEXVHbOkd7V566TFy0u6qt/qrqm96Ov56HeeXA2zgACuFRdxgG+dNXA7wiLnC5OH6HRYnAUpzr+II61+Bn8XX7kEftylAFc3xngJU0TwHGCMXNKAdl3zBPyBM5J9IdI+F9h7U6sE1dn6zilqAsQGMN7lzwAPmW/MfCljDGZYS+/Gtefs8fkFjFYdYji7N4hiDzOJdYjdongPEZ0GulxF0ZuTvz9jHCV4LtjzppgHwhiH28FSSONxN2XUDuMAmrqZJPAmwhdPIGadm1P7h/Cikc8AHqrk7GaSdRPsAAAAASUVORK5CYII="/>
+                                    <p>5</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
